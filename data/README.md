@@ -1,30 +1,30 @@
-# Data for the Project
+# 📂 Data Sources & Description
 
 This folder contains information about the datasets and the preprocessing used for training and evaluating models in the project.  
 Due to copyright and redistribution restrictions, some raw data files cannot be uploaded directly to GitHub.                         
-Links to the original sources and instructions on how the data was processed.
+However, the data obtained from these sources were preprocessed using the scrips in `data/preprocessing`. The cleaned and standardized corpora are stored in `data/processed`, each as a JSON file named by language (e.g., twi_corpus.json, ewe_corpus.json). These processed files are the ones used directly in training and evaluation.
 
 ---
 
-## 📊 Data Sources
+### 📊 Data Sources
 
-### Ga
+Ga
 - **Source 1:** [Bible.com](https://www.bible.com/bible)  
 - **Source 2:** [JW.org](https://www.jw.org)  
 
-### Dagbani
+Dagbani
 - **Source:** [JW.org](https://www.jw.org)  
 
-### Ewe
+Ewe
 - **Source(s):** From a database named ewedictionarydb
 
-### Akan (Twi/Fante)
+Akan (Twi/Fante)
 - **Source:** [TypeCraft Akan Corpus Release 1.0](https://www.researchgate.net/publication/323998547_TypeCraft_Akan_Corpus_Release_10)  
 
 
 ---
 
-## ⚙️ Preprocessing
+### ⚙️ Preprocessing
 
 - Each language has its own preprocessing notebook in `data/preprocessing/`:
   - `akan_preprocessing.ipynb`
