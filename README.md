@@ -59,3 +59,30 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+---
+
+## 🚀 Getting Started  
+
+After setting up the environment, you can start exploring the language identification pipeline:
+
+1. **Open the main notebook:**
+   ```bash
+   jupyter notebook main_notebook.ipynb
+   ```
+   Or if using VS Code, simply open `main_notebook.ipynb` in the editor.
+
+2. **Run the cells sequentially:**
+   - Start from the top and execute each cell in order
+   - The notebook includes data loading, exploratory analysis, feature engineering, model training, and evaluation
+   - Each section is clearly documented with markdown explanations
+
+3. **Expected workflow:**
+   - **Data Loading:** Load preprocessed corpora for all four languages
+   - **EDA:** Explore dataset statistics and sample texts
+   - **Feature Engineering:** Convert text to TF-IDF vectors
+   - **Model Training:** Train multiple classifiers (Naive Bayes, Logistic Regression, SVM)
+   - **Evaluation:** Compare model performance with metrics and visualizations
+
+
+
+
